@@ -153,7 +153,7 @@ $items = $db->query($selectQuery);
                 <button type='submit' name='action' value='delete' class='btn btn-danger'>
                   X
                 </button>
-
+                
               </div>
             </form>
 
