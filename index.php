@@ -77,7 +77,7 @@ if (isset($_POST['action'])) {
 /**
  * Select all tasks from the database.
  */
-$selectQuery = ''; // IMPLEMENT ME (ADEM)
+$selectQuery = 'SELECT * FROM todo'; // IMPLEMENT ME (ADEM)
 $items = $db->query($selectQuery);
 ?>
 
